@@ -1,0 +1,25 @@
+.PaginationControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+
+.paginationButton{
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.paginationButton:disabled{
+    background: ccc;
+    cursor: not-allowed;
+}
+
+.paginationNumbers{
+    font-size: 18px;
+    color: white;
+}
